@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Source+Code+Pro:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fira+Sans:wght@300&family=Source+Code+Pro:ital@1&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+  position: absolute;
+    background-color: grey;
+ transition: transform 0.3s ease-in;
+   height: 100vh;
+}
+
+.sidebar nav{
+     padding: 25px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 23px;
+    padding: 23px 0;
+}
+.sidebar nav li a{
+   color: black;
+   text-decoration: none;
+}
+.main{
+    /* background-color: yellow; */
+    width: 86vw;
+    
+    padding: 23px;
+}
+.container{
+    display: flex;
+   
+}
+.infocontainer{
+    /* background-color: rgb(255, 0, 132); */
+    height: 58vh;
+    width: 80vw;
+    margin: 97px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    /* font-family: 'Source Code Pro', monospace; */
+    font-family: 'Fira Sans', sans-serif;
+    /* font-family: 'Dancing Script', cursive; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.devPic img{
+    height: 72vh;
+    width: 400px;
+}
+.infocontainer .btn {
+    background: #050200;
+    background-image: -webkit-linear-gradient(top, #050200, #050200);
+    background-image: -moz-linear-gradient(top, #050200, #050200);
+    background-image: -ms-linear-gradient(top, #050200, #050200);
+    background-image: -o-linear-gradient(top, #050200, #050200);
+    background-image: linear-gradient(to bottom, #050200, #050200);
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    font-family: Georgia;
+    color: #eddfed;
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;
+    /* border: solid #8c5d1f 2px; */
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    color: black;
+    background-image: -webkit-linear-gradient(top, #eddfed, #eddfed);
+    background-image: -moz-linear-gradient(top,#eddfed, #eddfed);
+    background-image: -ms-linear-gradient(top, #eddfed, #eddfed);
+    background-image: -o-linear-gradient(top, #eddfed, #eddfed);
+    background-image: linear-gradient(to bottom, #eddfed, #eddfed);
+    text-decoration: none;
+  }
+  
+
+  .hello{
+     font-size: 60px;
+ 
+    
+
+  }
+  .name{
+    font-size: 45px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+
+  }
+  .about{
+    font-size: 35px;
+  }
+  .button{
+    margin: 10px 10px 10px 0;
+  }
+  .moreabout{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .contactform{
+    font-family: 'Fira Sans', sans-serif;
+   
+  margin: 0 100px;
+    padding: 0 34px;
+    padding-top: 100px;
+  }
+  .contactform h2{
+    
+   padding-bottom: 30px;
+
+  }
+
+  .contactform div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contactform div input{
+    width: 40vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0 ;
+    padding: 3px;
+  }
+
+
+  #emailHelp{
+    font-size: 12px;
+    color: red;
+    margin: 0 5px;
+  }
+
+  #form-check{
+         flex-direction: row;
+  }
+  #form-check input{
+  width: 12px;
+  margin: 3px 0;
+  
+  }
+
+  .form-check-label{
+padding: 10px;
+  }
+
+  .btn {
+    background: #0a0000;
+    background-image: -webkit-linear-gradient(top, #0a0000, #080000);
+    background-image: -moz-linear-gradient(top, #0a0000, #080000);
+    background-image: -ms-linear-gradient(top, #0a0000, #080000);
+    background-image: -o-linear-gradient(top, #0a0000, #080000);
+    background-image: linear-gradient(to bottom, #0a0000, #080000);
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: white;
+    color: black;
+    
+    text-decoration: none;
+  }
+
+  h1{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 23px;
+  }
+  .blogitem{
+     margin: 20px;
+     font-family: 'Fira Sans', sans-serif;
+  }
+
+  .blogitem h2{
+    font-family: 'Fira Sans', sans-serif;
+ }
+
+ p{
+  font-family: 'Source Code Pro', monospace;
+}
+
+.blogitem .btn {
+  background: #0a0000;
+  background-image: -webkit-linear-gradient(top, #0a0000, #080000);
+  background-image: -moz-linear-gradient(top, #0a0000, #080000);
+  background-image: -ms-linear-gradient(top, #0a0000, #080000);
+  background-image: -o-linear-gradient(top, #0a0000, #080000);
+  background-image: linear-gradient(to bottom, #0a0000, #080000);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: white;
+  color: black;
+  
+  text-decoration: none;
+}
+.intro{
+  margin: 0 88px;
+}
+
+.intro h2{
+margin: 12px;
+}
+.intro p{
+margin: 15px;
+}
+.skillcontainer{
+  margin: 15px;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 900;
+}
+.skillhtml{
+  width: 270px;
+  height: 6px;
+  background-color: green;
+  margin: 20px;
+}
+.blog{
+  margin: 0 80px;
+}
+.skillcss{
+  width: 135px;
+  height: 6px;
+  background-color: red;
+  margin: 20px;
+}
+.skilljs{
+  width: 270px;
+  height: 6px;
+  background-color: green;
+  margin: 20px;
+}
+.skillphp
+{
+  width: 270px;
+  height: 6px;
+  background-color: green;
+  margin: 20px;
+}
+.skillpy{
+  width: 135px;
+  height: 6px;
+  background-color: red;
+  margin: 20px;
+}
+
+@media (max-width:1200px) {
+  /* *{
+    background-color: red;
+  } */
+
+  .devPic{
+    display: none;
+  }
+  /* .sidebar{
+    transform: translate(-443px,0px);
+    position: absolute;
+  } */
+}
+
+.sidebargo{
+  transform: translate(-443px,0px);
+  position: absolute;
+}
+
+.hamberg{
+  position:absolute;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+}
+
+.cross{
+  margin-left: 90px;
+
+}

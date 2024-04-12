@@ -1,0 +1,242 @@
+*{
+    margin: 04;
+    padding: 0;
+     font-family: 'Baloo Bhaina 2', cursive;
+}
+.child{
+    height: 50vh;
+    
+    background-color:aqua ;
+    
+    /* box-sizing: border-box; */
+}
+.parent{
+    display: grid;
+    grid-template-columns: 49vw 49vw;
+     grid-row-gap: 1vh;
+    grid-column-gap: 1vh; 
+
+}
+#one{
+    grid-row: 1/5;
+    height: 99vh;
+    background-image: url('LOGO.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    
+}
+#one p{
+    position: relative;
+    left: 50px;
+    top: 50px;
+    position: relative;
+    top: 10px;
+    font-size: 70px;
+    letter-spacing: 2px;
+    word-spacing: 0px;
+    font-weight:100;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    color:white;
+    text-transform: uppercase;
+    /* font-family: 'Baloo Bhaina 2', cursive; */
+    text-shadow: 1px 1px 2px green, 0 0 1em RED, 0 0 0.2em orange;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: maroon;
+    font-size: 40px;
+    position: relative;
+    top: 100px;
+    height: 50px;
+    left: 80px;
+   text-shadow: 1px 1px 2px white;
+   background-color: beige;
+   width: 500px;
+}
+.btn{
+    position: relative;
+    top: 50px;
+    left: 00px;
+    height: 30px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 10px;
+}
+#btn1{
+    color: white;
+    background-color: green;
+}
+#btn1:hover{
+    color: green;
+    background-color: white;
+}
+#btn2{
+    color: green;
+    background-color: white;
+}
+#btn2:hover{
+    color: white;
+    background-color: green;
+}
+#nation{
+    position: relative;
+    top: 0px;
+    color: maroon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    position: relative;
+    top: 100px;
+    left: 80px;
+    text-shadow: 1px 1px 2px white;
+    width: 500px;
+    height: 50px;
+    background-color: beige;
+}
+
+#two{
+    /* height: 24vh; */
+    /* background-image: url('rajasth.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 30px;
+        display: flex;   justify-content:center;
+       align-items: center; 
+        /* align-content: center; */
+        text-transform: capitalize;
+        position: relative;
+        bottom: 10px;
+        color: white;
+    }
+.change:after{
+        content: '';
+        
+        /* background-image: url('img.jpg'); */
+        animation: changetext 8s infinite linear;
+        text-transform: uppercase;
+        text-decoration: underline;
+
+        height: 10px;
+        padding: 0px;
+        color: white;
+        
+    }
+
+    @keyframes changetext {
+        0%{
+            content: " Deserts";
+            
+            color: yellow;
+          
+        }
+        25%{
+            content:"#RAJSTHAN";
+            color: yellow;
+        }
+        50%{
+            content: " Beaches";
+            color: navy;
+        }
+        100%{
+            content: "#GOA";
+            color: navy;
+        }
+    }
+#two{
+    background-repeat: no-repeat;
+    animation: changeimage 8s infinite linear; 
+}
+@keyframes changeimage{
+    0%{
+        background-image: url('rajasth.png');
+    }
+    25%{
+        background-image: url('rajasth.png');
+
+    }
+    50%{
+        background-image: url('goa.jfif');
+    }
+    100%{
+        background-image: url('goa.jfif')
+    }
+
+    
+}
+
+#three{
+    /* height: 24vh; */
+    /* background-image: url('rajasth.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 30px;
+        display: flex;   justify-content:center;
+       align-items: center; 
+        /* align-content: center; */
+        text-transform: capitalize;
+        position: relative;
+        bottom: 10px;
+        color: white;
+    }
+.change1:after{
+        content: '';
+        
+        /* background-image: url('img.jpg'); */
+        animation: changetext1 8s infinite linear;
+        text-transform: uppercase;
+        text-decoration: underline;
+
+        height: 10px;
+        padding: 0px;
+        color: white;
+        
+    }
+
+    @keyframes changetext1 {
+        0%{
+            content: " to dance";
+            color: aqua;
+          
+        }
+        25%{
+            content:"#GUJRAT";
+            color: aqua;
+        }
+        50%{
+            content: "eat dosa ";
+            color: brown;
+        }
+        100%{
+            content: "#KERALA";
+            color: brown;
+        }
+    }
+#three{
+    background-repeat: no-repeat;
+    animation: changeimage1 8s infinite linear; 
+}
+@keyframes changeimage1{
+    0%{
+        background-image: url('gujrat.jfif');
+    }
+    25%{
+        background-image: url('gujrat.jfif');
+
+    }
+    50%{
+        background-image: url('kerala.jfif');
+    }
+    100%{
+        background-image: url('kerala.jfif')
+    }
+
+    
+}
